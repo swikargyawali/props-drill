@@ -21,6 +21,7 @@ html,body{
 
 
 .card{
+  
   height: 400px;
   width: 300px;
   background-color: #fff;
@@ -28,6 +29,8 @@ html,body{
 }
 
 .card .top{
+  margin:0px 16px 0px 16px;
+  padding-top: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between; 
@@ -35,5 +38,21 @@ html,body{
 
 .top img{
   height: 30px;
+  width: 32px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 2px;
+}
+
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 4px 8px;
+  font-size: 13px;
+  border-radius: 5px;
+  gap: 3px;
+  background-color: transparent;
+  color: #b1b1b1;
 
 }

@@ -8,7 +8,7 @@ const App = () => {
       <div className='card'>
         <div className="top">
           <img src="https://thumbs.dreamstime.com/b/amazon-logo-editorial-illustrative-white-background-eps-download-vector-jpeg-banner-ai-amazon-logo-editorial-illustrative-208329107.jpg" alt="" />
-          <button>Save <Bookmark/></button>
+          <button>Save <Bookmark size={12}/></button>
         </div>
 
         <div className="center">
