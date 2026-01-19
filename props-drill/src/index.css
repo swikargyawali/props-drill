@@ -17,6 +17,8 @@ html,body{
   width: 100%;
   background-color: black;
   padding: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 
