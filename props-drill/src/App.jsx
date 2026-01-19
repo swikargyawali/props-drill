@@ -6,7 +6,8 @@ const App = () => {
     <div className='parent'>
 
       <div className='card'>
-        <div className="top">
+        <div>
+             <div className="top">
           <img src="https://thumbs.dreamstime.com/b/amazon-logo-editorial-illustrative-white-background-eps-download-vector-jpeg-banner-ai-amazon-logo-editorial-illustrative-208329107.jpg" alt="" />
           <button>Save <Bookmark size={12}/></button>
         </div>
@@ -14,10 +15,12 @@ const App = () => {
         <div className="center">
           <h3>Amazon <span>5 days ago</span></h3>
           <h2>Senior UI/UX Designer</h2>
-          <div>
+          
+          <div className='tag'>
             <h4>Part Time</h4>
             <h4>Senior Level</h4>
           </div>
+        </div>
         </div>
 
         <div className="bottom">
