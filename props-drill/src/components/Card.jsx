@@ -1,6 +1,10 @@
 import React from 'react'
 
-const card = () => {
+const card = (props) => {
+
+  console.log(props.company)
+
+
   return (
     <div className="card">
       {/* TOP */}
@@ -15,7 +19,7 @@ const card = () => {
       {/* CENTER */}
       <div className="center">
         <h3>
-          Amazon <span>5 days ago</span>
+          {props.company} <span>5 days ago</span>
         </h3>
 
         <h2>Senior UI/UX Designer</h2>
